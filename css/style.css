@@ -1,0 +1,175 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+html {
+    background: url(../img/background-img-repeat.png) repeat;
+}
+
+body {
+    padding-bottom: 40px;
+    color: #5a5a5a;
+    margin-top: 16px;
+    background: transparent;
+}
+
+.body-wrapper {
+    background: white;
+    padding: 22px 0 22px 0;
+    max-width: 962px;
+    margin: auto;
+    -moz-box-shadow: 0 0 20px 5px #999;
+    -webkit-box-shadow: 0 0 20px 5px #999;
+}
+
+.container {
+    padding-left: 27px;
+    padding-right: 24px;
+}
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.logo {
+    margin-top: -42px;
+}
+
+.nav > li {
+    font-size: 17px;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    height: 533px;
+    max-width: 906px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.carousel .item {
+    height: 533px;
+    max-width: 906px;
+    background-color: #777;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: auto;
+}
+
+/* Using Font Awesome instead of Glyphicons */
+.carousel-control .fa-chevron-left,
+.carousel-control .fa-chevron-right {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    z-index: 5;
+    display: inline-block;
+    font-size: 24px;
+}
+.carousel-control .icon-prev,
+.carousel-control .fa-chevron-left {
+    left: 20%;
+    margin-left: -10px;
+}
+.carousel-control .icon-next,
+.carousel-control .fa-chevron-right {
+    right: 20%;
+    margin-right: -10px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 60px;
+    }
+    .navbar-wrapper .container {
+        padding-right: 85px;
+        padding-left: 45px;
+    }
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 960px) {
+    .carousel, .carousel .item {
+        height: 405px;
+    }
+
+    .logo {
+        max-width: 170px;
+        margin-top: -33px;
+    }
+
+    .nav > li {
+        font-size: 13px;
+    }
+
+    .navbar-wrapper .container {
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+
+    .body-wrapper {
+        background: white;
+        padding: 22px 0 22px 0;
+        max-width: 796px;
+        margin: auto;
+        -moz-box-shadow: 0 0 20px 5px #999;
+        -webkit-box-shadow: 0 0 20px 5px #999;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        display:none;
+    }
+
+    .body-wrapper {
+        background: white;
+        padding: 22px 0 22px 0;
+        max-width: 770px;
+        margin: auto;
+        -moz-box-shadow: 0 0 20px 5px #999;
+        -webkit-box-shadow: 0 0 20px 5px #999;
+        margin-top: 100px;
+    }
+}
+
+/* CUSTOM STYLES */
+
+.content-arrow {
+    padding-left: 80px;
+    background: url(../img/help-for-new-parents-of-newborns-and-infants.png) no-repeat;
+}
+
+.social-icons {
+    letter-spacing: 3px;
+}
+
+.banner-header {
+    padding: 14px 0;
+}
+
+footer {
+    padding-top: 50px;
+    color: #777;
+}
