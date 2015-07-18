@@ -91,6 +91,38 @@ body {
     margin-right: -10px;
 }
 
+/* CUSTOM STYLES
+-------------------------------------------------- */
+
+.content-arrow {
+    padding-left: 80px;
+    background: url(../img/help-for-new-parents-of-newborns-and-infants.png) no-repeat;
+}
+
+#donate-button {
+    width: 900px;
+    position: absolute;
+    top: 0px;
+    z-index: 50;
+    background: url(../img/donate-to-partners-in-parenting-nonprofit.png) no-repeat;
+    background-position: right;
+    padding: 53px 123px;
+}
+
+.social-icons {
+    letter-spacing: 3px;
+}
+
+.banner-header {
+    padding: 14px 0;
+}
+
+footer {
+    padding-top: 50px;
+    color: #777;
+}
+
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -136,6 +168,10 @@ body {
         -moz-box-shadow: 0 0 20px 5px #999;
         -webkit-box-shadow: 0 0 20px 5px #999;
     }
+
+    #donate-button {
+        width: 686px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -152,24 +188,8 @@ body {
         -webkit-box-shadow: 0 0 20px 5px #999;
         margin-top: 100px;
     }
-}
 
-/* CUSTOM STYLES */
-
-.content-arrow {
-    padding-left: 80px;
-    background: url(../img/help-for-new-parents-of-newborns-and-infants.png) no-repeat;
-}
-
-.social-icons {
-    letter-spacing: 3px;
-}
-
-.banner-header {
-    padding: 14px 0;
-}
-
-footer {
-    padding-top: 50px;
-    color: #777;
+    #donate-button {
+        display: none;
+    }
 }
