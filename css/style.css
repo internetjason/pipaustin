@@ -45,6 +45,19 @@ body {
     font-size: 17px;
 }
 
+/*
+#navbar {
+    position: relative;
+}
+
+#navbar .nav {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: -25px;
+}
+*/
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
