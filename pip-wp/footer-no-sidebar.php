@@ -3,7 +3,7 @@
             <div class="col-sm-12 text-center small">
                 <p>&copy;<?php echo date("Y"); ?> Partners in Parenting. All Rights Reserved</p>
                 <p>Partners in Parenting is a 501(c)(3) non-profit recognized by the IRS</p>
-                <p>home | contact | faq | <a href="#top" title="Jump back to top">&#8593;</a></p>
+                <p>home | contact | faq | <a href="#top" title="Jump back to top">[back to top]</a></p>
                 <p>privacy policy</p>
             </div>
         </div>
