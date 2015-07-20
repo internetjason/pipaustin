@@ -1,9 +1,17 @@
+/*
+
+Theme Name: PIP Austin
+Author: Jason Carroll
+Version: 1.0
+
+*/
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
 html {
-    background: url(../img/background-img-repeat.png) repeat;
+    background: url(assets/img/background-img-repeat.png) repeat;
 }
 
 body {
@@ -115,7 +123,7 @@ margin-bottom: -25px;
 
 .content-arrow {
     padding-left: 80px;
-    background: url(../img/help-for-new-parents-of-newborns-and-infants.png) no-repeat;
+    background: url(assets/img/help-for-new-parents-of-newborns-and-infants.png) no-repeat;
 }
 
 #donate-button {
@@ -123,7 +131,7 @@ margin-bottom: -25px;
     position: absolute;
     top: 0px;
     z-index: 50;
-    background: url(../img/donate-to-partners-in-parenting-nonprofit.png) no-repeat;
+    background: url(assets/img/donate-to-partners-in-parenting-nonprofit.png) no-repeat;
     background-position: right;
     padding: 53px 123px;
 }
