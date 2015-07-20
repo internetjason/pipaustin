@@ -98,7 +98,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"><img class="logo" src="<?php echo bloginfo('template_directory'); ?>assets/img/parnters-in-parenting-austin.png"></a>
+                        <a class="navbar-brand" href="#"><img class="logo" src="<?php echo bloginfo('template_directory'); ?>/assets/img/parnters-in-parenting-austin.png"></a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
