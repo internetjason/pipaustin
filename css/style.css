@@ -26,6 +26,11 @@ body {
     padding-left: 27px;
     padding-right: 24px;
 }
+
+.radio label {
+    padding-right: 20px;
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
