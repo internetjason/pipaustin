@@ -103,6 +103,9 @@
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
                         </ul>
+                        <!-- Wordpress Navbar Code -->
+                        <?php $args = array( 'menu' => 'mainnav', 'container' => false, 'menu_id' => false, 'menu_class' => 'nav navbar-nav navbar-right'); wp_nav_menu($args); ?>
+<!--
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="#">home</a></li>
                             <li><a href="#">programs</a></li>
@@ -111,6 +114,7 @@
                             <li><a href="#">about</a></li>
                             <li><a href="#">contact</a></li>
                         </ul>
+-->
                     </div>
                 </div>
             </nav>
