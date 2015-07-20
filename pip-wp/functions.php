@@ -58,6 +58,9 @@ function post_comments( $comment, $args, $depth ) {
 
 // Custom functions
 
+// Removing admin bar
+show_admin_bar( false );
+
 // Tidy up the <head> a little. Full reference of things you can show/remove is here: http://rjpargeter.com/2009/09/removing-wordpress-wp_head-elements/
 remove_action('wp_head', 'wp_generator');// Removes the WordPress version as a layer of simple security
 
