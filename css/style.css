@@ -68,6 +68,7 @@ body {
     margin-bottom: 15px;
     margin-left: 0px;
     margin-right: 0px;
+    margin-top: -130px;
 }
 
 .carousel .item {
@@ -214,4 +215,8 @@ footer {
     .carousel {
 	display: block;
     }
+}
+
+.body-container {
+    margin-top: 130px;
 }
