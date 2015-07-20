@@ -1,5 +1,22 @@
 <?php ?>
+
+
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="img/favicon.png">
+
+        <title>Partners in Parenting</title>
+        <meta name="description" content="">
+
+
+
+
 <!DOCTYPE html>
+        <html lang="en">
 <!--[if IE 9 ]><html lang="en" class="ie ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html <?php language_attributes(); ?>> <!--<![endif]-->
 <head>
@@ -31,7 +48,19 @@
 <!-- The little things -->
 
 <!-- Stylesheets -->
-	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+
+    <!-- Bootstrap -->
+    <link href="<?php echo bloginfo('template_directory'); ?>/assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="<?php echo bloginfo('template_directory'); ?>/assets/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link href="<?php echo bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
+
+    <!-- Custom Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+
 <!-- Stylesheets -->
 
 <!--
@@ -43,6 +72,7 @@
 </head>
 
 <body <?php body_class(); ?> id="top">
+<!--
     <header role="banner">
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home" class="logo"><?php bloginfo( 'name' ); ?></a>
         <p class="desc">
@@ -53,3 +83,40 @@
         </nav>
         <?php get_search_form(); ?>
     </header>
+-->
+    <!-- BODY WRAPPER -->
+    <div class="body-wrapper">
+
+        <!-- Static navbar -->
+        <div class="navbar-wrapper">
+            <nav class="navbar navbar-default navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><img class="logo" src="img/parnters-in-parenting-austin.png"></a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">programs</a></li>
+                            <li><a href="#">sign up</a></li>
+                            <li><a href="#">get involved</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Donate Button -->
+        <div class="container">
+            <span id="donate-button"></span>
+        </div>

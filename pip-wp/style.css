@@ -1,136 +1,225 @@
 /*
 
-	Theme Name: Barebones
-	Author: James Young
-	Website: http://www.welcomebrand.co.uk
-	Twitter: @welcomebrand
-	Version: 2.0
-	Description: A stripped down, style free (well, nearly!) minimal WordPress theme for developing on top of.
-
-	CONTENTS
-	-------------
-	- Global resets
-	- Global typography & layout rules
-	- Page styles
-	- Post styles
-	- General bits
-
-	- Media queries
+	Theme Name: PIP Austin
+	Author: Jason Carroll
+	Version: 1.0
 
 */
 
-/* 01 START : Global reset styles */
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent}article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}a{margin:0;padding:0;border:0;vertical-align:baseline;background:transparent}ins,mark{background:#333;color:#fff;text-decoration:none}mark{padding:0 .2em;}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted #000;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}::-moz-selection,::-webkit-selection,::selection {text-shadow:none;background:#333;color:#fff;}.cf:before,.cf:after{content:"";display:table;}.cf:after{clear:both;}.cf{zoom:1;}[type=submit]{cursor:pointer;}
-/* 01 END : Global reset styles */
-
-/* START : Global rules */
-* {
-	-webkit-box-sizing:  border-box;
-	-moz-box-sizing: border-box;
-	box-sizing:  border-box;
-	}
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
 
 html {
-	font-size: 100%; /* Set a 16px base size */
-	}
+    background: url(../img/background-img-repeat.png) repeat;
+}
 
 body {
-	padding: 2%;
-	margin: 0 auto;
-	font-size: 16px;
-	font-size: 1rem;
-	line-height: 1.5;
-	}
-
-/* Set vertical rhythm */
-h1,h2,h3,h4,h5,h6,hgroup,ul,ol,dd,p,figure,pre,table,fieldset,hr {
-    margin-bottom: 24px;
-	margin-bottom: 1.5rem; /* 24px equivalent/fallback */
-	}
-
-h1, h2, h3, h4, h5, h6 {
-	line-height: normal;
-	}
-
-blockquote { }
-	blockquote cite { }
-
-p { }
-
-a { }
-	a:hover { }
-
-img,
-a img {
-	max-width: 100%;
-	}
-
-figure { }
-	figcaption { }
-
-.alignleft,
-.alignright {
-	/* left and right float triggered on bigger screens */
-	float: none;
-	}
-/* END : Global rules */
-
-
-
-/* START : Page styles */
-
-/* END : Page styles */
-
-
-
-/* START : Post styles */
-
-/* END : Post styles */
-
-
-
-/* START : General bits */
-
-/* END : General bits */
-
-
-/* START : Media Queries */
-
-	/* I've added some arbitrary breakpoints to get you started, you don't have to use these - you can remove, edit or add to them however you like. They're just a guide. */
-
-/* 480px equivalent breakpoint */
-@media only screen and (min-width: 30em) {
+    padding-bottom: 40px;
+    color: #5a5a5a;
+    margin-top: 16px;
+    background: transparent;
 }
 
-/* 600px equivalent breakpoint */
-@media only screen and (min-width: 37.5em) {
+.body-wrapper {
+    background: white;
+    padding: 22px 0 22px 0;
+    max-width: 962px;
+    margin: auto;
+    -moz-box-shadow: 0 0 20px 5px #999;
+    -webkit-box-shadow: 0 0 20px 5px #999;
 }
 
-/* 768px equivalent breakpoint */
-@media only screen and (min-width: 48em) {
-.alignleft,
-.alignright {
-	float: left;
-	display: inline;
-	}
+.container {
+    padding-left: 27px;
+    padding-right: 24px;
+}
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
 
-	.alignright {
-		float: right;
-	}
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
 }
 
-/* 1024px equivalent breakpoint */
-@media only screen and (min-width: 64em) {
+.logo {
+    margin-top: -42px;
 }
 
-/* 1260px equivalent breakpoint */
-@media only screen and (min-width: 78.75em) {
+.nav > li {
+    font-size: 17px;
 }
-/* END : Media Queries */
 
-
-/* PRINT STYLES */
-
-@media print {
-	/* If you're going to have a print stylesheet, now's the time */
+/*
+#navbar {
+position: relative;
 }
+
+#navbar .nav {
+position: absolute;
+bottom: 0;
+right: 0;
+margin-bottom: -25px;
+}
+*/
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    height: 533px;
+    max-width: 906px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.carousel .item {
+    height: 533px;
+    max-width: 906px;
+    background-color: #777;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: auto;
+}
+
+/* Using Font Awesome instead of Glyphicons */
+.carousel-control .fa-chevron-left,
+.carousel-control .fa-chevron-right {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    z-index: 5;
+    display: inline-block;
+    font-size: 24px;
+}
+.carousel-control .icon-prev,
+.carousel-control .fa-chevron-left {
+    left: 20%;
+    margin-left: -10px;
+}
+.carousel-control .icon-next,
+.carousel-control .fa-chevron-right {
+    right: 20%;
+    margin-right: -10px;
+}
+
+/* CUSTOM STYLES
+-------------------------------------------------- */
+
+.content-arrow {
+    padding-left: 80px;
+    background: url(../img/help-for-new-parents-of-newborns-and-infants.png) no-repeat;
+}
+
+#donate-button {
+    width: 900px;
+    position: absolute;
+    top: 0px;
+    z-index: 50;
+    background: url(../img/donate-to-partners-in-parenting-nonprofit.png) no-repeat;
+    background-position: right;
+    padding: 53px 123px;
+}
+
+.social-icons {
+    letter-spacing: 3px;
+}
+
+.banner-header {
+    padding: 14px 0;
+}
+
+footer {
+    padding-top: 50px;
+    color: #777;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 60px;
+    }
+    .navbar-wrapper .container {
+        padding-right: 85px;
+        padding-left: 45px;
+    }
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 960px) {
+    .carousel, .carousel .item {
+        height: 405px;
+    }
+
+    .logo {
+        max-width: 170px;
+        margin-top: -33px;
+    }
+
+    .nav > li {
+        font-size: 13px;
+    }
+
+    .navbar-wrapper .container {
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+
+    .body-wrapper {
+        background: white;
+        padding: 22px 0 22px 0;
+        max-width: 796px;
+        margin: auto;
+        -moz-box-shadow: 0 0 20px 5px #999;
+        -webkit-box-shadow: 0 0 20px 5px #999;
+    }
+
+    #donate-button {
+        width: 686px;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        display:none;
+    }
+
+    .body-wrapper {
+        background: white;
+        padding: 22px 0 22px 0;
+        max-width: 770px;
+        margin: auto;
+        -moz-box-shadow: 0 0 20px 5px #999;
+        -webkit-box-shadow: 0 0 20px 5px #999;
+        margin-top: 100px;
+    }
+
+    #donate-button {
+        display: none;
+    }
+}
+
+@media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: portrait) {
+        .carousel {
+            display: block;
+        }
+    }
