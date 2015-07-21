@@ -25,17 +25,17 @@
         </article>
     </div>
     <div class="col-sm-3 col-sm-pull-9">
-        <div id="AffixMenu">
+        <div id="sidebar">
             <?php dynamic_sidebar( 'Page Sidebar 1' ); ?>
         </div>
     </div>
     <script>
         jQuery(document).ready(function() {
-            $('#AffixMenu').affix({
+            $('#sidebar').affix({
                 offset: {
-                    top: 100,
+                    top: 155
                 }
-            })
+            });
         }
     </script>
 
