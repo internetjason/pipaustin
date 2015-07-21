@@ -30,13 +30,11 @@
         </div>
     </div>
     <script type="text/javascript">
-        jQuery(document).ready(function() {
-            $('#sidebar').affix({
-                offset: {
-                    top: 155
-                }
-            });
-        })
+        $('#sidebar').affix({
+            offset: {
+                top: 155
+            }
+        });
     </script>
 
 </div> <!-- / . body container -->
