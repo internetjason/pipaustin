@@ -89,7 +89,7 @@ Optional Stuff - Remove comment if you need it
                                 <ul class="nav navbar-nav">
                                 </ul>
                                 <!-- Wordpress Navbar Code -->
-                                <?php $args = array( 'menu' => 'mainnav', 'container' => false, 'menu_id' => false, 'menu_class' => 'nav navbar-nav navbar-right'); wp_nav_menu($args); ?>
+                                <?php $args = array( 'menu' => 'primary', 'container' => false, 'menu_id' => false, 'menu_class' => 'nav navbar-nav navbar-right'); wp_nav_menu($args); ?>
                             </div>
                         </div>
                     </nav>
