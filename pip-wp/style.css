@@ -154,11 +154,11 @@ footer {
 }
 
 /* secondary menu for wp */
-ul#menu-secondary-sidebar-nav {
+ul#menu-about-sidebar-nav, ul#menu-get-involved-sidebar-menu {
     list-style-type: none;
 }
 
-ul#menu-secondary-sidebar-nav li.menu-item {
+ul#menu-about-sidebar-nav li.menu-item, ul#menu-get-involved-sidebar-menu li.menu-item {
     margin: 0 -30px;
     padding: 2px 0;
     font-size: 1.5rem;
