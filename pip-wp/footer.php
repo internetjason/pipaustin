@@ -6,7 +6,7 @@
                     <p>&copy;<?php echo date("Y"); ?> Partners in Parenting. All Rights Reserved</p>
                     <p>Partners in Parenting is a 501(c)(3) non-profit recognized by the IRS</p>
                     <p><?php $args = array( 'theme_location' => 'secondary-menu', 'container' => false, 'menu_id' => false, 'menu_class' => 'footer-nav'); wp_nav_menu($args); ?></p>
-                    <p><a href="#top" title="Jump back to top">[back to top] &#8593;</a></p>
+<!--                    <p><a href="#top" title="Jump back to top">[back to top] &#8593;</a></p>-->
                     <p>privacy policy</p>
                 </div>
             </div>
