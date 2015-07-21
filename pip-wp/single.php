@@ -38,7 +38,7 @@
 
     </div>
     <div class="col-sm-4">
-        <?php get_sidebar('Blog Sidebar 1'); ?>
+        <?php dynamic_sidebar( 'Blog Sidebar 1' ); ?>
     </div>
 
 </div> <!-- / . body container -->
