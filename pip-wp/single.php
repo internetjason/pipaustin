@@ -1,5 +1,8 @@
 <?php get_header(); ?>
 
+<!-- Bootstrap Container -->
+<div class="container body-container">
+
 	<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
         <article role="main" class="primary-content" id="post-<?php the_ID(); ?>">
@@ -30,5 +33,7 @@
 
             <?php endwhile; // end of the loop. ?>
         </article>
+
+</div> <!-- / . body container -->
 
 <?php get_footer(); ?>

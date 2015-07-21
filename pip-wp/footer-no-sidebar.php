@@ -1,4 +1,4 @@
-            </div> <!-- / . body container -->
+
             <footer>
                 <div class="row">
                     <div class="col-sm-12 text-center small">

@@ -1,5 +1,5 @@
 <?php get_sidebar('Blog Sidebar 1'); ?>
-    </div>
+
         <footer>
             <div class="row">
                 <div class="col-sm-12 text-center small">
