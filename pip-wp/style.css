@@ -164,10 +164,15 @@ ul#menu-secondary-sidebar-nav li.menu-item {
     font-size: 1.5rem;
 }
 
+.affix {
+    top: 0px;
+}
+
 /* padding under certain images */
 .img-bottom-padding {
     padding-bottom: 12px;
 }
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */

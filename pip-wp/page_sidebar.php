@@ -25,18 +25,10 @@
         </article>
     </div>
     <div class="col-sm-3 col-sm-pull-9">
-        <div id="sidebar">
+        <div id="sidebar" data-spy="affix" data-offset-top="180">
             <?php dynamic_sidebar( 'Page Sidebar 1' ); ?>
         </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script type="text/javascript">
-        $('#sidebar').affix({
-            offset: {
-                top: 155
-            }
-        });
-    </script>
 
 </div> <!-- / . body container -->
 
