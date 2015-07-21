@@ -23,13 +23,46 @@ function display_secondary_menu() {
 }
 
 // Registering sidebar
-if ( function_exists('register_sidebar') )
-	register_sidebar(array(
-		'before_widget' => '<aside>',
-		'after_widget' => '</aside>',
-		'before_title' => '<h3>',
-		'after_title' => '</h3>',
-));
+//if ( function_exists('register_sidebar') )
+//	register_sidebar(array(
+//		'before_widget' => '<aside>',
+//		'after_widget' => '</aside>',
+//		'before_title' => '<h3>',
+//		'after_title' => '</h3>',
+//));
+
+if ( function_exists('register_sidebar') ) {
+
+    register_sidebar(array(
+        'name' => 'Page Sidebar 1',
+        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="widgettitle">',
+        'after_title' => '</h3>'
+    ));
+
+    register_sidebar(array(
+        'name' => 'Blog Sidebar 1',
+        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="widgettitle">',
+        'after_title' => '</h3>'
+    ));
+
+
+// Multiple sidebars from WP codex site
+//register_sidebars( $number, $args );
+//
+//$args = array(
+//    'name'          => __('Sidebar %d'),
+//    'id'            => 'sidebar',
+//    'description'   => '',
+//    'class'         => '',
+//    'before_widget' => '<li id="%1$s" class="widget %2$s">',
+//    'after_widget'  => '</li>',
+//    'before_title'  => '<h3 class="widgettitle">',
+//    'after_title'   => '</h3>' );
+
 
 add_post_type_support('page', 'excerpt');
 

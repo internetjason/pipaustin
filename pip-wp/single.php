@@ -31,4 +31,5 @@
             <?php endwhile; // end of the loop. ?>
         </article>
 
+<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Blog Sidebar 1') ) : ?>
 <?php get_footer(); ?>

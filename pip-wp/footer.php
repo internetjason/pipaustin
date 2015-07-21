@@ -1,4 +1,4 @@
-<?php get_sidebar(); ?>
+<?php #get_sidebar('Blog Sidebar 1'); ?>
     </div>
         <footer>
             <div class="row">
