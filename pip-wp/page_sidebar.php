@@ -4,10 +4,7 @@
 <!-- Bootstrap Container -->
 <div class="container body-container">
 
-    <div class="col-sm-4">
-        <?php dynamic_sidebar( 'Page Sidebar 1' ); ?>
-    </div>
-    <div class="col-sm-8">
+    <div class="col-sm-9 col-sm-push-3">
     <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
         <article role="main" class="primary-content" id="post-<?php the_ID(); ?>">
@@ -26,7 +23,9 @@
 
             <?php endwhile; ?>
         </article>
-
+    </div>
+    <div class="col-sm-3 col-sm-pull-9">
+        <?php dynamic_sidebar( 'Page Sidebar 1' ); ?>
     </div>
 
 </div> <!-- / . body container -->
