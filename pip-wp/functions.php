@@ -2,25 +2,42 @@
 
 add_theme_support( 'menus' );
 
+add_action( 'init', 'register_primary_menu' );
+function register_primary_menu() {
+    if ( function_exists( 'register_nav_menu' ) ) {
+        register_nav_menu( 'primary-menu', 'Primary Menu' );
+    }
+}
+
+add_filter('__header', 'display_primary_menu', 1000, 0);
+function display_primary_menu() {
+    echo ( has_nav_menu( 'primary-menu' ) ? wp_nav_menu (
+        array (
+            'theme_location' => 'primary-menu',
+            'container_id'    => 'primary-menu',
+            'container_class'    => 'primary-menu'
+        )
+    ).'<div class="clearall"></div>' : '' );
+}
 // Adding secondary menu
 
-//add_action( 'init', 'register_secondary_menu' );
-//function register_secondary_menu() {
-//    if ( function_exists( 'register_nav_menu' ) ) {
-//        register_nav_menu( 'secondary-menu', 'Secondary Menu' );
-//    }
-//}
-//
-//add_filter('__header', 'display_secondary_menu', 1000, 0);
-//function display_secondary_menu() {
-//    echo ( has_nav_menu( 'secondary-menu' ) ? wp_nav_menu (
-//        array (
-//            'theme_location' => 'secondary-menu',
-//            'container_id'    => 'secondary-menu',
-//            'container_class'    => 'secondary-menu'
-//        )
-//    ).'<div class="clearall"></div>' : '' );
-//}
+add_action( 'init', 'register_secondary_menu' );
+function register_secondary_menu() {
+    if ( function_exists( 'register_nav_menu' ) ) {
+        register_nav_menu( 'secondary-menu', 'Secondary Menu' );
+    }
+}
+
+add_filter('__header', 'display_secondary_menu', 1000, 0);
+function display_secondary_menu() {
+    echo ( has_nav_menu( 'secondary-menu' ) ? wp_nav_menu (
+        array (
+            'theme_location' => 'secondary-menu',
+            'container_id'    => 'secondary-menu',
+            'container_class'    => 'secondary-menu'
+        )
+    ).'<div class="clearall"></div>' : '' );
+}
 
 // Registering sidebar
 //if ( function_exists('register_sidebar') )
