@@ -251,6 +251,10 @@ ul#menu-about-sidebar-nav li.current-menu-item a, ul#menu-get-involved-sidebar-m
     .body-container {
         margin-top: -20px;
     }
+
+    .affix {
+        position: static;
+    }
 }
 
 @media only screen
