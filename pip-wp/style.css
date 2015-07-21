@@ -164,6 +164,10 @@ ul#menu-about-sidebar-nav li.menu-item, ul#menu-get-involved-sidebar-menu li.men
     font-size: 1.5rem;
 }
 
+ul#menu-about-sidebar-nav li.current-menu-item a, ul#menu-get-involved-sidebar-menu li.current-menu-item a {
+    color: rgb(98, 194, 204);
+}
+
 .affix {
     top: 0px;
 }
