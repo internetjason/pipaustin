@@ -26,7 +26,7 @@
     </div>
     <div class="col-sm-3 col-sm-pull-9">
         <div id="sidebar" data-spy="affix" data-offset-top="180">
-            <?php dynamic_sidebar( 'Page Sidebar 1' ); ?>
+            <?php dynamic_sidebar( 'Get Involved Sidebar' ); ?>
         </div>
     </div>
 
