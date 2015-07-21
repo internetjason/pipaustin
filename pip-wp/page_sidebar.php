@@ -29,7 +29,7 @@
             <?php dynamic_sidebar( 'Page Sidebar 1' ); ?>
         </div>
     </div>
-    <script>
+    <script type="text/javascript">
         jQuery(document).ready(function() {
             $('#sidebar').affix({
                 offset: {
