@@ -154,14 +154,14 @@ footer {
 }
 
 /* secondary menu for wp */
-#secondary-menu ul {
-    text-align: center;
+ul#menu-secondary-sidebar-nav {
     list-style-type: none;
 }
 
-#secondary-menu ul li {
-    display: inline-block;
-    padding: 0 5px;
+ul#menu-secondary-sidebar-nav li.menu-item {
+    margin: 0 -30px;
+    padding: 2px 0;
+    font-size: 1.5rem;
 }
 
 /* RESPONSIVE CSS
