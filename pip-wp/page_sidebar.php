@@ -1,4 +1,4 @@
-<?php /* Template Name: Page Sidebar 1 */ ?>
+<?php /* Template Name: About Pages */ ?>
 <?php get_header(); ?>
 
 <!-- Bootstrap Container -->
@@ -26,7 +26,7 @@
     </div>
     <div class="col-sm-3 col-sm-pull-9">
         <div id="sidebar" data-spy="affix" data-offset-top="180">
-            <?php dynamic_sidebar( 'Page Sidebar 1' ); ?>
+            <?php dynamic_sidebar( 'About Sidebar' ); ?>
         </div>
     </div>
 
