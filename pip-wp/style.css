@@ -177,6 +177,21 @@ ul#menu-about-sidebar-nav li.current-menu-item a, ul#menu-get-involved-sidebar-m
     padding-bottom: 12px;
 }
 
+/* footer navigation */
+ul#menu-footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul#menu-footer-nav li:after {
+    content: " | ";
+}
+
+ul#menu-footer-nav li {
+    display: inline;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
