@@ -25,8 +25,19 @@
         </article>
     </div>
     <div class="col-sm-3 col-sm-pull-9">
-        <?php dynamic_sidebar( 'Page Sidebar 1' ); ?>
+        <div id="AffixMenu">
+            <?php dynamic_sidebar( 'Page Sidebar 1' ); ?>
+        </div>
     </div>
+    <script>
+        jQuery(document).ready(function() {
+            $('#AffixMenu').affix({
+                offset: {
+                    top: 100,
+                }
+            })
+        }
+    </script>
 
 </div> <!-- / . body container -->
 
