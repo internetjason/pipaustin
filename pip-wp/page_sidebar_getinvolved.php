@@ -1,4 +1,4 @@
-<?php /* Template Name: Get Involved Sidebar */ ?>
+<?php /* Template Name: Get Involved */ ?>
 <?php get_header(); ?>
 
 <!-- Bootstrap Container -->
