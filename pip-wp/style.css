@@ -184,12 +184,15 @@ ul#menu-footer-nav {
     margin: 0;
 }
 
-ul#menu-footer-nav li:after {
+ul#menu-footer-nav li:before {
     content: " | ";
 }
 
 ul#menu-footer-nav li {
     display: inline;
+}
+ul#menu-footer-nav li:first-child:before {
+    content: "";
 }
 
 
