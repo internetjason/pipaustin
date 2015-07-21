@@ -36,7 +36,7 @@
                     top: 155
                 }
             });
-        }
+        })
     </script>
 
 </div> <!-- / . body container -->
