@@ -3,6 +3,8 @@
 <!-- Bootstrap Container -->
 <div class="container body-container">
 
+    <div class="col-sm-8">
+
 	<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
         <article role="main" class="primary-content" id="post-<?php the_ID(); ?>">
@@ -33,6 +35,11 @@
 
             <?php endwhile; // end of the loop. ?>
         </article>
+
+    </div>
+    <div class="col-sm-4">
+        <?php get_sidebar('Blog Sidebar 1'); ?>
+    </div>
 
 </div> <!-- / . body container -->
 
