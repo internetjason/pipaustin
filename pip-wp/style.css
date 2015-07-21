@@ -153,6 +153,17 @@ footer {
     margin-top: 130px;
 }
 
+/* secondary menu for wp */
+#secondary-menu ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+#secondary-menu ul li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
