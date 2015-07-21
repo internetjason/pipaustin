@@ -64,7 +64,7 @@ Optional Stuff - Remove comment if you need it
 <?php bloginfo( 'description' ); ?>
 </p>
 <nav role="navigation">
-<?php $args = array( 'menu' => 'mainnav', 'container' => false, 'menu_id' => false, 'menu_class' => false); wp_nav_menu($args); ?>
+<?php $args = array( 'menu' => 'mainnav', 'container' => false, 'menu_id' => 'primary-menu', 'menu_class' => false); wp_nav_menu($args); ?>
 </nav>
 <?php get_search_form(); ?>
 </header>
