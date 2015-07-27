@@ -130,13 +130,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong {
 }
 
 #donate-button {
-    width: 900px;
-    position: absolute;
+    position: relative;
     top: 0px;
     z-index: 50;
     background: url(assets/img/donate-to-partners-in-parenting-nonprofit.png) no-repeat;
     background-position: right;
     padding: 53px 123px;
+    margin: -40px 10px -106px 0;
+    float: right;
 }
 
 .social-icons {
@@ -280,9 +281,11 @@ ul#menu-footer-nav li:first-child:before {
         -webkit-box-shadow: 0 0 20px 5px #999;
     }
 
+/*
     #donate-button {
         width: 686px;
     }
+*/
 }
 
 @media (max-width: 768px) {
