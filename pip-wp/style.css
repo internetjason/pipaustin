@@ -194,6 +194,19 @@ ul#menu-footer-nav li:first-child:before {
     content: "";
 }
 
+/* panel header & body */
+.panel-title {
+    font-size: 2.0rem;
+    text-align: center;
+}
+
+.panel-body {
+    text-align: center;
+}
+
+.panel-wrapper .col-sm-4 {
+    padding: 0px 6px;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
