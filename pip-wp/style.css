@@ -214,6 +214,17 @@ ul#menu-footer-nav li:first-child:before {
     padding: 0px 6px;
 }
 
+/* FAQ Panel */
+.panel-body:before {
+    content: "A. ";
+    display: inline-block;
+    color: #EF7021;
+    font-size: 3.0rem;
+    font-family: "Shadows Into Light Two", sans-serif;
+    float: left;
+    margin: -2px 6px -2px 0px;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
