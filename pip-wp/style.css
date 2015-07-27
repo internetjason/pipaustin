@@ -225,6 +225,11 @@ ul#menu-footer-nav li:first-child:before {
     margin: -2px 6px -2px 0px;
 }
 
+.panel-title:before {
+    content: "Q.";
+    color: #161F4F;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
