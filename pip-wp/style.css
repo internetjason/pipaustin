@@ -316,8 +316,8 @@ ul#menu-footer-nav li:first-child:before {
     }
 
     .navbar-default {
-        background-color: rgba(98, 194, 204);
-        border-color: rgba(73, 184, 196);
+        background-color: rgb(98, 194, 204);
+        border-color: rgb(73, 184, 196);
     }
 
     .nav > li {
