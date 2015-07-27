@@ -44,7 +44,7 @@ if ( $paged >= 2 || $page >= 2 )
             <link href="<?php echo bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
 
             <!-- Custom Google Fonts -->
-            <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+            <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light|Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
 
             <!-- Stylesheets -->
 
