@@ -228,3 +228,14 @@ footer {
 	display: block;
     }
 }
+
+.vcenter {
+    display: table !important;
+    height: 220px;
+}
+
+.vc-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
