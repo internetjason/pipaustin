@@ -195,6 +195,12 @@ ul#menu-footer-nav li:first-child:before {
 }
 
 /* panel header & body */
+.panel-info > .panel-heading {
+    color: #fff;
+    background-color: #8CD2DA;
+    border-color: #8CD2DA;
+}
+
 .panel-title {
     font-family: "Shadows Into Light",sans-serif;
     font-size: 3.0rem;
