@@ -39,6 +39,18 @@ body {
     padding-right: 20px;
 }
 
+.vcenter {
+    display: table !important;
+    height: 220px;
+}
+
+.vc-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -57,19 +69,6 @@ body {
 .nav > li {
     font-size: 17px;
 }
-
-/*
-#navbar {
-position: relative;
-}
-
-#navbar .nav {
-position: absolute;
-bottom: 0;
-right: 0;
-margin-bottom: -25px;
-}
-*/
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
