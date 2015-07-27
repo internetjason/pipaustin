@@ -97,5 +97,5 @@ Optional Stuff - Remove comment if you need it
 
                 <!-- Donate Button -->
                 <div class="container">
-                    <span id="donate-button"></span>
+                    <a href="http://www.thinkliz.com/pipaustinorg/get-involved/donate/"><span id="donate-button"></span></a>
                 </div>
