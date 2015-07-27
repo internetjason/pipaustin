@@ -204,10 +204,9 @@ ul#menu-footer-nav li:first-child:before {
 .panel-title {
     font-family: "Shadows Into Light Two",sans-serif;
     font-size: 2.5rem;
-    text-align: center;
 }
 
-.panel-body {
+.page-id-111 .panel-title, .page-id-111 .panel-body {
     text-align: center;
 }
 
